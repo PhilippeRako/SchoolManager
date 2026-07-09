@@ -14,9 +14,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <router-link class="nav-link" to="/gestion-eleves">
-            Gestion élèves
-          </router-link>
+          <router-link class="nav-link" to="/gestion-ecole">Gestion de l'école</router-link>
         </li>
 
         <li class="nav-item">
