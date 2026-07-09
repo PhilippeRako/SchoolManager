@@ -33,3 +33,39 @@
     background-color: var(--accent);
     color: var(--primary-bg);
 }
+
+:root {
+    --primary-bg: #FFFFFF;
+    --accent: #00C853;
+    --text-dark: #222222;
+    --tab-bg: #f5f5f5;
+}
+
+
+.nav-tabs {
+    border-bottom: 2px solid var(--accent);
+}
+
+.nav-tabs .nav-link {
+    color: var(--text-dark);
+    background-color: var(--tab-bg);
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e0e0e0;
+    color: var(--accent);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-bg);
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    border-bottom: none;
+}
+
